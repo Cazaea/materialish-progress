@@ -23,9 +23,17 @@
 >  (remeber to add `xmlns:wheel="http://schemas.android.com/apk/res-auto"`):
 
 ```
-implementation 'com.cazaea:materialish-progress:1.0.0'
+compile 'com.github.cazaea:materialish-progress:1.0.0'
 ```
-
+> Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
 ### Usage
 
 ```
