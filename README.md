@@ -23,7 +23,7 @@
 >  (remeber to add `xmlns:wheel="http://schemas.android.com/apk/res-auto"`):
 
 ```
-compile 'com.github.cazaea:materialish-progress:1.0.0'
+compile 'com.github.cazaea:materialish-progress:1.0.2'
 ```
 > Add it in your root build.gradle at the end of repositories:
 ```
